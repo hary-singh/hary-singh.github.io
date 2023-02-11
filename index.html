@@ -1,56 +1,661 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Harry Dhillon</title>
-        <link rel="stylesheet" href="CSS/styles.css">
-        <link rel="icon" href="icon.ico">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap" rel="stylesheet"> 
-    </head>
-    <body>
-        <div class="top-container">
-            <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-            <h1>I'm Harry</h1>
-       <h2> <p>a <span class="pro">pro</span>grammer.</p></h2>
-        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-        <img src="images/mountain.png" alt="mountain-img">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!--==================== UNICONS ====================-->
+    <link href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" rel="stylesheet">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link href="" rel="stylesheet">
+
+    <!--==================== CSS ====================-->
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+    <title>Harry Dhillon</title>
+    <link rel="icon" href="assets/icons/favicon.ico">
+</head>
+<body>
+<!--==================== HEADER ====================-->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a class="nav__logo" href="#">Harry</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list grid">
+                <li class="nav__item">
+                    <a class="nav__link" href="#home">
+                        <i class="uil uil-estate nav__icon"></i> Home
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#about">
+                        <i class="uil uil-user nav__icon"></i> About
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#skills">
+                        <i class="uil uil-file-alt nav__icon"></i> Skills
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#qualification">
+                        <i class="uil uil-briefcase-alt nav__icon"></i> Qualifications
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#contact">
+                        <i class="uil uil-message nav__icon"></i> Contact Me
+                    </a>
+                </li>
+            </ul>
+            <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
-        <div class="middle-container">
-            <div class="profile">
-              <img class="harry-img" src="images/Harry.png" alt="Harry">
-              <h2>Hello.</h2>
-              <p class="intro">I'm a software engineer based in Salt Lake City, UT specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.</p>
+
+        <div class="nav__btns">
+<!--            Dark Theme Change-->
+            <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="uil uil-apps"></i>
             </div>
-            <hr>
-            <div class="skills">
-              <h2>My Skills.</h2>
-              
-              <div class="skill-row">
-                <img class="code-image" src="images/code.png" alt="code-logo">
-                <h3>Software Development</h3>
-                <p>A Meticulous Engineer who delivers superior results to complex assignments using HTML, CSS, JavaScript, Rails, React, Python and Git.</p>
-              </div>
-              <div class="skill-row">
-                <img class="integration-image" src="images/integration.png" alt="integration-logo">
-                <h3>Systems Integration</h3>
-                <p>A highly motivated team player with hands on experience and extensive education in Java, Python, Data Analysis, Kanban, Jira and Salesforce.</p>
-              </div>
+        </div>
+    </nav>
+</header>
+
+<!--==================== MAIN ====================-->
+<main class="main"><br><br><br><br>
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+        <div class="home__container container grid">
+            <div class="home__content grid">
+                <div class="home__social">
+                    <a class="home__social-icon" href="https://www.linkedin.com/in/harrysdhillon/" target="_blank">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+
+                    <a class="home__social-icon" href="https://twitter.com/warsteiner04" target="_blank">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+
+                    <a class="home__social-icon" href="https://github.com/hary-singh" target="_blank">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                            <image class="home__blob-img" x='25' xlink:href="./assets/img/harry_new.png" y="-30"/>
+                        </g>
+                    </svg>
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Hi, I'm Harry</h1>
+                    <h3 class="home__subtitle">Software Engineer</h3>
+                    <p class="home__description">
+                        A Meticulous Engineer who undertakes complex assignments,
+                        meets tight deadlines and delivers superior performance.
+                    </p>
+                    <br>
+                    <a class="button button--flex" href="#contact">
+                        Contact Me <i class="uil uil-message button__icon"></i>
+                    </a>
+                </div>
             </div>
-            <hr>
-            <div class="contact-me">
-              <h2>Get In Touch</h2>
-              <h3>I’m currently available for freelance work.</h3>
-              <p class="contact-message">If you have a project that you want to get started, think you need my help with something or just saying hey, then get in touch.</p>
-              <a class="btn" href="mailto:harry2dhillon94@gmail.com">Say Hello!</a>
+
+            <div class="home__scroll">
+                <a class="home__scroll-button button--flex" href="#about">
+                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                    <span class="home__scroll-name">Scroll down</span>
+                    <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                </a>
             </div>
-          </div>
-          
-          
-          <div class="bottom-container">
-            <a class="footer-link" href="https://www.linkedin.com/in/navbirsdhillon/">LinkedIn</a>
-            <a class="footer-link" href="https://github.com/hary-singh">Github</a>
-            <p class="copyright">© 2021 Harry Dhillon.</p>
-          </div>
-        
-    </body>
+        </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+            <div class="about__data">
+                <p class="about__description">
+                    Software engineer, with extensive knowledge and years of experience, building enterprise-level web applications,
+                    delivering quality work.</p>
+
+                <div class="about__info">
+                    <div>
+                        <span class="about__info-title">05+</span>
+                        <span class="about__info-name">Years <br> experience</span>
+                    </div>
+
+                    <div>
+                        <span class="about__info-title">10+</span>
+                        <span class="about__info-name">Completed <br> projects</span>
+                    </div>
+
+                    <div>
+                        <span class="about__info-title">02+</span>
+                        <span class="about__info-name">Companies <br> worked</span>
+                    </div>
+                </div>
+
+                <div class="about__buttons">
+                    <a class="button button--flex" download="" href="assets/pdf/Harry_Dhillon.pdf">
+                        Download CV <i class="uil uil-download-alt button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+
+        <div class="skills__container container grid">
+            <div>
+                <!--==================== SKILL 1 ====================-->
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="uil uil-brackets-curly skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__title">Front-end development</h1>
+                            <span class="skills__subtitle">More than 2 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">React</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__react"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Javascript</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__js"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills__number">75%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__css"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__html"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--==================== SKILL 2 ====================-->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-server-network skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__title">Back-end development</h1>
+                            <span class="skills__subtitle">More than 3 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Python</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__python"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Advanced Java</h3>
+                                <span class="skills__number">75%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__java"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Ruby</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__ruby"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Rails</h3>
+                                <span class="skills__number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__rails"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--==================== SKILL 3 ====================-->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-hospital skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__title">Healthcare specific</h1>
+                            <span class="skills__subtitle">More than 2 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Mirth Connect</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__mirth"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Apache Kafka</h3>
+                                <span class="skills__number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__kafka"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Rabbit MQ</h3>
+                                <span class="skills__number">60%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__rabbit"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--==================== QUALIFICATION ====================-->
+    <section class="qualification section" id="qualification">
+        <h2 class="section__title">Qualifications</h2>
+        <span class="section__subtitle">My personal journey</span>
+
+        <div class="qualification__container container">
+            <div class="qualification__tabs">
+                <div class="qualification__button button--flex qualification__active" data-target="#education">
+                    <i class="uil uil-graduation-cap qualification__icon"></i>
+                    Education
+                </div>
+
+                <div class="qualification__button button--flex" data-target="#work">
+                    <i class="uil uil-briefcase-alt qualification__icon"></i>
+                    Work
+                </div>
+            </div>
+
+            <div class="qualification__sections">
+                <!--==================== QUALIFICATION CONTENT 1====================-->
+                <div class="qualification__content qualification__active" data-content id="education">
+                    <!--==================== QUALIFICATION 1====================-->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Full Stack Web Development</h3>
+                            <span class="qualification__subtitle">DevPoint Labs - SLC, Utah</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2021 - 2021
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification__ronuder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                    <!--==================== QUALIFICATION 2====================-->
+                    <div class="qualification__data">
+                        <div></div>
+
+                        <div>
+                            <span class="qualification__ronuder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__title">M.S. - Computer Science Engineering</h3>
+                            <span class="qualification__subtitle">Thapar University - Punjab, India</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2015 - 2017
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== QUALIFICATION 3====================-->
+                    <div class="qualification__data">
+
+                        <div>
+                            <h3 class="qualification__title">B.S. - Computer Science Engineering</h3>
+                            <span class="qualification__subtitle">Thapar University - Punjab, India</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2012 - 2015
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification__ronuder"></span>
+                            <!--<span class="qualification__line"></span>-->
+                        </div>
+
+                        <div></div>
+                    </div>
+                </div>
+
+                <!--==================== QUALIFICATION CONTENT 2====================-->
+                <div class="qualification__content" data-content id="work">
+                    <!--==================== QUALIFICATION 1====================-->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Software Engineer</h3>
+                            <span class="qualification__subtitle">PointClickCare Inc. - SLC, Utah</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2022 - Present
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification__ronuder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                    <!--==================== QUALIFICATION 2====================-->
+                    <div class="qualification__data">
+                        <div></div>
+
+                        <div>
+                            <span class="qualification__ronuder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__title">Integration Engineer</h3>
+                            <span class="qualification__subtitle">PointClickCare Inc. - SLC, Utah</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2021 - 2022
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== QUALIFICATION 3====================-->
+                    <div class="qualification__data">
+
+                        <div>
+                            <h3 class="qualification__title">Desktops Engineer</h3>
+                            <span class="qualification__subtitle">Teleperformance - Sandy, Utah</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2018 - 2021
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification__ronuder"></span>
+                            <!--<span class="qualification__line"></span>-->
+                        </div>
+
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== SERVICES ====================-->
+<!--    <section class="services section" id="services">-->
+
+<!--    </section>-->
+
+    <!--==================== PORTFOLIO ====================-->
+<!--    <section class="portfolio section" id="portfolio">-->
+
+<!--    </section>-->
+
+    <!--==================== PROJECT IN MIND ====================-->
+<!--    <section class="project section">-->
+
+<!--    </section>-->
+
+    <!--==================== TESTIMONIAL ====================-->
+<!--    <section class="testimonial section">-->
+
+<!--    </section>-->
+
+    <!--==================== CONTACT ME ====================-->
+    <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Let's get in touch</span>
+
+        <div class="contact__container container grid">
+            <div>
+                <div class="contact__information">
+                    <i class="uil uil-linkedin-alt contact__icon"></i>
+                    <div>
+                        <a href="https://www.linkedin.com/in/harrysdhillon/" target="_blank">
+                            <h3 class="contact__title">LinkedIn</h3>
+                            <span class="contact__subtitle">Harry S. Dhillon</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact__information">
+                    <i class="uil uil-twitter-alt contact__icon"></i>
+                    <div>
+                        <a href="https://twitter.com/warsteiner04" target="_blank">
+                            <h3 class="contact__title">Twitter</h3>
+                            <span class="contact__subtitle">warsteiner04</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact__information">
+                    <i class="uil uil-github-alt contact__icon"></i>
+                    <div>
+                        <a href="https://github.com/hary-singh" target="_blank">
+                            <h3 class="contact__title">Github</h3>
+                            <span class="contact__subtitle">Harry</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact__form grid" action="assets/php/submit.php" method="post" id="contact-form">
+                <div class="contact__inputs grid">
+                    <div class="contact__content">
+                        <label class="contact__label">Name</label>
+                        <label>
+                            <input type="text" class="contact__input">
+                        </label>
+                    </div>
+                    <div class="contact__content">
+                        <label class="contact__label">Email</label>
+                        <label>
+                            <input type="email" class="contact__input">
+                        </label>
+                    </div>
+                </div>
+                <div class="contact__content">
+                    <label class="contact__label">Subject</label>
+                    <label>
+                        <input type="text" class="contact__input">
+                    </label>
+                </div>
+                <div class="contact__content">
+                    <label class="contact__label">Message</label>
+                    <label>
+                        <textarea cols="0" rows="7" class="contact__input"></textarea>
+                    </label>
+                </div>
+
+                <div>
+                    <a href="#" class="button button--flex" id="submit-button">
+                        Send Message
+                        <i class="uil uil-message button__icon"></i>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+<!--==================== FOOTER ====================-->
+<footer class="footer">
+    <div class="footer__bg">
+        <div class="footer__container container grid">
+            <div>
+                <h1 class="footer__title">Harry</h1>
+                <span class="footer__subtitle">Software Engineer</span>
+            </div>
+
+            <ul class="footer__links">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li>
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li>
+                    <a href="#qualification" class="footer__link">Qualifications</a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer__link">Contact Me</a>
+                </li>
+            </ul>
+
+            <div class="footer__socials">
+                <a href="https://www.linkedin.com/in/harrysdhillon/" class="footer__social" target="_blank">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+
+                <a href="https://twitter.com/warsteiner04" class="footer__social" target="_blank">
+                    <i class="uil uil-twitter-alt"></i>
+                </a>
+
+                <a href="https://github.com/hary-singh" class="footer__social" target="_blank">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; HarryDhillon. All rights reserved.</p>
+    </div>
+</footer>
+
+<!--==================== SCROLL TOP ====================-->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
+
+<!--==================== SEND EMAIL ====================-->
+<script>
+    const submitBtn = document.querySelector("#submit-button");
+    const form = document.querySelector("#contact-form");
+
+    submitBtn.addEventListener("click", function(event) {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+
+        fetch("submit.php", {
+            method: "POST",
+            body: formData
+        })
+            .then(response => {
+                if (response.ok) {
+                    return response.text();
+                } else {
+                    throw new Error("Request failed: " + response.statusText);
+                }
+            })
+            .then(text => {
+                console.log("Success: " + text);
+                // show success message to user or redirect to another page
+            })
+            .catch(error => {
+                console.error("Error: " + error);
+                // show error message to user
+            });
+    });
+
+</script>
+
+<!--==================== SWIPER JS ====================-->
+<script src=""></script>
+
+<!--==================== MAIN JS ====================-->
+<script src="assets/js/main.js"></script>
+</body>
 </html>
