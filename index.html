@@ -532,7 +532,7 @@
                 </div>
             </div>
 
-            <form class="contact__form grid" action="assets/php/submit.php" method="post" id="contact-form">
+            <form class="contact__form grid" method="post" id="contact-form" data-netlify="true">
                 <div class="contact__inputs grid">
                     <div class="contact__content">
                         <label class="contact__label">Name</label>
@@ -561,10 +561,10 @@
                 </div>
 
                 <div>
-                    <a href="#" class="button button--flex" id="submit-button">
+                    <button class="button button--flex button__icon contact__button" type="submit">
                         Send Message
                         <i class="uil uil-message button__icon"></i>
-                    </a>
+                    </button>
                 </div>
             </form>
         </div>
@@ -620,37 +620,37 @@
 </a>
 
 <!--==================== SEND EMAIL ====================-->
-<script>
-    const submitBtn = document.querySelector("#submit-button");
-    const form = document.querySelector("#contact-form");
+<!--<script>-->
+<!--    const submitBtn = document.querySelector("#submit-button");-->
+<!--    const form = document.querySelector("#contact-form");-->
 
-    submitBtn.addEventListener("click", function(event) {
-        event.preventDefault();
+<!--    submitBtn.addEventListener("click", function(event) {-->
+<!--        event.preventDefault();-->
 
-        const formData = new FormData(form);
+<!--        const formData = new FormData(form);-->
 
-        fetch("submit.php", {
-            method: "POST",
-            body: formData
-        })
-            .then(response => {
-                if (response.ok) {
-                    return response.text();
-                } else {
-                    throw new Error("Request failed: " + response.statusText);
-                }
-            })
-            .then(text => {
-                console.log("Success: " + text);
-                // show success message to user or redirect to another page
-            })
-            .catch(error => {
-                console.error("Error: " + error);
-                // show error message to user
-            });
-    });
+<!--        fetch("submit.php", {-->
+<!--            method: "POST",-->
+<!--            body: formData-->
+<!--        })-->
+<!--            .then(response => {-->
+<!--                if (response.ok) {-->
+<!--                    return response.text();-->
+<!--                } else {-->
+<!--                    throw new Error("Request failed: " + response.statusText);-->
+<!--                }-->
+<!--            })-->
+<!--            .then(text => {-->
+<!--                console.log("Success: " + text);-->
+<!--                // show success message to user or redirect to another page-->
+<!--            })-->
+<!--            .catch(error => {-->
+<!--                console.error("Error: " + error);-->
+<!--                // show error message to user-->
+<!--            });-->
+<!--    });-->
 
-</script>
+<!--</script>-->
 
 <!--==================== SWIPER JS ====================-->
 <script src=""></script>
